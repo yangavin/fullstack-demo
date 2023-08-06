@@ -7,8 +7,8 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({
-    firstName: "Gavin",
-    lastName: "Yan",
+    firstName: "John",
+    lastName: "Doe",
   });
 });
 
